@@ -1,0 +1,25 @@
+<div class="row mt-5">
+    <div class="col-md-12 m-auto">
+        <div class="card card-body text-center">
+            <h1>Today's Topics</h1>
+            <form action="/no-of-topics" method="POST">
+                <div class="form-group">
+                    <input
+                        type="topic"
+                        id="topic"
+                        name="topic"
+                        class="form-control"
+                        placeholder="Enter Number of Topics"
+                        value="<%- typeof topic != 'undefined' ? topic : 5 %>"
+                    />
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+            <ul class="mt-3 list-group">
+                <% for(var i=0; i<topics.length; i++) {%>
+                   <li class="list-group-item text-left"><a target="_blank" href="<%=  topics[i].url %>"><%= i+1 %>. <%= topics[i].title %></a></li>
+                <% } %>
+            </ul>
+        </div>
+    </div>
+</div>
