@@ -71,6 +71,66 @@ const topics = [
         title: 'Javascript Objects',
         url: 'https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#javascript-objects'
     },
+    {
+        title: 'Ddos/Brute Force Attcack and Prevent in Nodejs',
+        url: 'https://github.com/sjMalik/nodejs-tips-and-tricks#ddosbrute-force-attcack-and-prevent-in-nodejs'
+    },
+    {
+        title: 'How do you secure the API?',
+        url: 'https://github.com/sjMalik/nodejs-tips-and-tricks#how-do-you-secure-the-api'
+    },
+    {
+        title: 'What is an SSL certificate?',
+        url: 'https://github.com/sjMalik/nodejs-tips-and-tricks#what-is-an-ssl-certificate'
+    },
+    {
+        title: 'File Upload',
+        url: 'https://github.com/sjMalik/nodejs-tips-and-tricks#file-upload'
+    },
+    {
+        title: 'Response Compression',
+        url: 'https://github.com/sjMalik/nodejs-tips-and-tricks#response-compression'
+    },
+    {
+        title: 'HTTP Cookies',
+        url: 'https://github.com/sjMalik/nodejs-tips-and-tricks#http-cookies'
+    },
+    {
+        title: 'Scaffolding node-express project',
+        url: 'https://github.com/sjMalik/nodejs-tips-and-tricks#scaffolding-node-express-project'
+    },
+    {
+        title: 'What is Kafka?',
+        url: 'https://github.com/sjMalik/nodejs-kafka#what-is-kafka'
+    },
+    {
+        title: 'express-generator',
+        url: 'https://github.com/sjMalik/express-handlebar-jquery-swagger#express-generator'
+    },
+    {
+        title: 'Express method-override middleware',
+        url: 'https://github.com/sjMalik/express-handlebar-jquery-swagger#express-method-override-middleware'
+    },
+    {
+        title: 'NodeJS Middleware',
+        url: 'https://github.com/sjMalik/practice-javascript#nodejs-middleware'
+    },
+    {
+        title: 'Call, Apply and Bind',
+        url: 'https://github.com/sjMalik/practice-javascript#call-apply-and-bind'
+    },
+    {
+        title: 'Chai Documentation',
+        url: 'https://github.com/sjMalik/practice-javascript#chai-documentation'
+    },
+    {
+        title: 'What is currying function?',
+        url: 'https://github.com/sjMalik/practice-javascript#what-is-currying-function'
+    },
+    {
+        title: 'ES6 Concepts',
+        url: 'https://github.com/sjMalik/practice-javascript#es6-concepts'
+    },
 ];
 
 
