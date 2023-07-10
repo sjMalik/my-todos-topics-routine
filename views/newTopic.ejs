@@ -1,0 +1,31 @@
+<div class="row mt-5">
+  <div class="col-md-12 m-auto">
+    <div class="card card-body text-center">
+      <h1>Today's Topics</h1>
+      <form action="/topics/new" method="POST">
+        <div class="form-group">
+          <input
+            type="title"
+            id="title"
+            name="title"
+            class="form-control"
+            placeholder="Enter Title of Topic"
+            value="<%= typeof title != 'undefined' ? title : '' %>"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="url"
+            id="url"
+            name="url"
+            class="form-control"
+            placeholder="Enter URL of Topic"
+            value="<%= typeof url != 'undefined' ? url : '' %>"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+      <p class="lead mt-4">Go to Dashboard? <a href="/">Dashboard</a></p>
+    </div>
+  </div>
+</div>
