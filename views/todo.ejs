@@ -1,0 +1,16 @@
+<div class="row mt-5">
+  <div class="col-md-12">
+    <div class="card card-body">
+      <ul class="list-group">
+        <% for(var i=0; i<todos.length; i++) {%>
+            <li class="list-group-item text-left">
+                <%= i+1 %>. <%= todos[i].title %><br>
+                <small><%= todos[i].description %></small>
+            </li>
+        <% } %>
+      </ul>
+      <p class="mt-4">Want to add new todo? <a href="/todos/new">Add</a></p>
+      <p class="text-right">Go to Topic Dasboard <a href="/">Topics</a></p>
+    </div>
+  </div>
+</div>

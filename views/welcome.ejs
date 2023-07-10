@@ -13,7 +13,7 @@
                         value="<%- typeof topic != 'undefined' ? topic : 5 %>"
                     />
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                <button type="submit" class="btn btn-primary float-left">Submit</button>
             </form>
             <ul class="mt-3 list-group">
                 <% for(var i=0; i<topics.length; i++) {%>
@@ -21,6 +21,7 @@
                 <% } %>
             </ul>
             <p class="lead mt-4">Want to add new Topic? <a href="/topics/new">Add</a></p>
+            <p class="text-right">Go to Todo Dasboard <a href="/todos">Todos</a></p>
         </div>
     </div>
 </div>

@@ -20,6 +20,7 @@ app.use(express.json());
 
 app.use('/', require('./routes/index'));
 app.use('/topics', require('./routes/topic'));
+app.use('/todos', require('./routes/todo'));
 app.use('/api/v1/topics', require('./apis/topics'));
 
 app.listen(7777, () => {
