@@ -1,8 +1,8 @@
 <div class="row mt-5">
   <div class="col-md-12 m-auto">
     <div class="card card-body text-center">
-      <h1>Add a new Todo</h1>
-      <form action="/todos/new" method="POST">
+      <h1>Update the Todo</h1>
+      <form action="/todos/<%= id %>?_method=PUT" method="POST">
         <div class="form-group">
           <input
             type="title"
@@ -23,7 +23,9 @@
             class="form-control"
             placeholder="Enter Description"
             value="<%= typeof description != 'undefined' ? description : '' %>"
-          ></textarea>
+          >
+<%= typeof description != 'undefined' ? description : '' %></textarea
+          >
         </div>
         <button type="submit" class="btn btn-primary float-left">Submit</button>
       </form>

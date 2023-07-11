@@ -1,15 +1,17 @@
 <div class="row mt-5">
   <div class="col-md-12">
-    <div class="card card-body">
-      <ul class="list-group">
+    <div class="card card-body text-center">
+      <h1>My Todos</h1>
+      <ul class="list-group mt-3">
         <% for(var i=0; i<todos.length; i++) {%>
             <li class="list-group-item text-left">
                 <%= i+1 %>. <%= todos[i].title %><br>
                 <small><%= todos[i].description %></small>
+                <a class="text-right float-right" href="/todos/<%= todos[i]._id %>">Edit</a>
             </li>
         <% } %>
       </ul>
-      <p class="mt-4">Want to add new todo? <a href="/todos/new">Add</a></p>
+      <p class="mt-4 lead">Want to add new todo? <a href="/todos/new">Add</a></p>
       <p class="text-right">Go to Topic Dasboard <a href="/">Topics</a></p>
     </div>
   </div>
