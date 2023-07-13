@@ -4,18 +4,14 @@ const Topic = require('../models/Topic');
 
 const router = express.Router();
 
-router.post('/', (req, res) => {
-  const topic = req.body;
-  const newTopic = new Topic({
-    title: topic.title,
-    url: topic.url,
-  });
-  newTopic.save()
-    .then((newTopicRes) => {
-      res.send(newTopicRes);
-      debug(newTopicRes);
-    })
-    .catch((e) => debug(e));
+router.post('/', async (req, res) => {
+  try {
+    const topic = req.body;
+    await Topic.insertMany(topic);
+    res.redirect('/');
+  } catch (e) {
+    debug(e)
+  }
 });
 
 router.get('/', async (req, res) => {

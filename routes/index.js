@@ -2,13 +2,15 @@ const express = require('express');
 
 const router = express.Router();
 
-const topics = require('../libs/topics');
+const topicsLib = require('../libs/topics');
+const Topic = require('../models/Topic')
 
 let topicsToRead = 5;
 
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
+  const topics = await Topic.find();
   res.render('Welcome', {
-    topics: topics.getMultipleRandom(topicsToRead),
+    topics: topicsLib.getMultipleRandom(topics, topicsToRead),
     topic: topicsToRead,
   });
 });
