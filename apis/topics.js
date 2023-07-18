@@ -10,13 +10,13 @@ router.post('/', async (req, res) => {
     await Topic.insertMany(topic);
     res.redirect('/');
   } catch (e) {
-    debug(e)
+    debug(e);
   }
 });
 
 router.get('/', async (req, res) => {
   try {
-    const topics = await Topic.find();
+    const topics = await Topic.find().collation({ locale: 'en', strength: 2 }).sort({ title: 1 });
     res.send(topics);
   } catch (e) {
     debug(e);

@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 const topicsLib = require('../libs/topics');
-const Topic = require('../models/Topic')
+const Topic = require('../models/Topic');
 
 let topicsToRead = 5;
 
