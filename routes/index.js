@@ -8,7 +8,7 @@ const Topic = require('../models/Topic');
 let topicsToRead = 5;
 
 router.get('/', async (req, res) => {
-  const topics = await Topic.find();
+  const topics = await Topic.find().collation({ locale: 'en', strength: 2 }).sort({ title: 1 });
   res.render('Welcome', {
     topics: topicsLib.getMultipleRandom(topics, topicsToRead),
     topic: topicsToRead,
