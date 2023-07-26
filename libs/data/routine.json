@@ -1,0 +1,116 @@
+[
+  {
+    "day": "Monday",
+    "topic": "Study Old Topics",
+    "time_from": "12:30 pm",
+    "time_to": "2:00 pm"
+  },
+  {
+    "day": "Wednesday",
+    "topic": "Study Old Topics",
+    "time_from": "12:30 pm",
+    "time_to": "2:00 pm"
+  },
+  {
+    "day": "Friday",
+    "topic": "Study Old Topics",
+    "time_from": "12:30 pm",
+    "time_to": "2:00 pm"
+  },
+  {
+    "day": "Tuesday",
+    "topic": "Study Old Topics",
+    "time_from": "9:00 am",
+    "time_to": "11:00 am"
+  },
+  {
+    "day": "Thrusday",
+    "topic": "Study Old Topics",
+    "time_from": "9:00 am",
+    "time_to": "11:00 am"
+  },
+  {
+    "day": "Saturday",
+    "topic": "Study Old Topics",
+    "time_from": "6:30 am",
+    "time_to": "9:00 am"
+  },
+  {
+    "day": "Sunday",
+    "topic": "Study Old Topics",
+    "time_from": "6:30 am",
+    "time_to": "9:00 am"
+  },
+  {
+    "day": "Tuesday",
+    "topic": "Study, Practise Javascript & Framework",
+    "time_from": "11:00 am",
+    "time_to": "2:00 pm"
+  },
+  {
+    "day": "Thrusday",
+    "topic": "Study, Practise Javascript & Framework",
+    "time_from": "11:00 am",
+    "time_to": "2:00 pm"
+  },
+  {
+    "day": "Monday",
+    "topic": "Study, Practise Javascript & Framework",
+    "time_from": "3:00 pm",
+    "time_to": "5:00 pm"
+  },
+  {
+    "day": "Wednesday",
+    "topic": "Study, Practise Javascript & Framework",
+    "time_from": "3:00 pm",
+    "time_to": "5:00 pm"
+  },
+  {
+    "day": "Friday",
+    "topic": "Study, Practise Javascript & Framework",
+    "time_from": "3:00 pm",
+    "time_to": "5:00 pm"
+  },
+  {
+    "day": "Tuesday",
+    "topic": "Linkedin Course: Digital Transformation",
+    "time_from": "4:00 pm",
+    "time_to": "6:00 pm"
+  },
+  {
+    "day": "Thrusday",
+    "topic": "Linkedin Course: Digital Transformation",
+    "time_from": "4:00 pm",
+    "time_to": "6:00 pm"
+  },
+  {
+    "day": "Monday",
+    "topic": "Linkedin Course: Digital Transformation",
+    "time_from": "5:00 pm",
+    "time_to": "7:00 pm"
+  },
+  {
+    "day": "Wednesday",
+    "topic": "Linkedin Course: Digital Transformation",
+    "time_from": "5:00 pm",
+    "time_to": "7:00 pm"
+  },
+  {
+    "day": "Friday",
+    "topic": "Linkedin Course: Digital Transformation",
+    "time_from": "5:00 pm",
+    "time_to": "7:00 pm"
+  },
+  {
+    "day": "Tuesday",
+    "topic": "Nodejs Projects from Youtube",
+    "time_from": "6:00 pm",
+    "time_to": "8:00 pm"
+  },
+  {
+    "day": "Thrusday",
+    "topic": "Nodejs Projects from Youtube",
+    "time_from": "6:00 pm",
+    "time_to": "8:00 pm"
+  }
+]

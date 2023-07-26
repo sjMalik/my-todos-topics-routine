@@ -25,9 +25,9 @@ router.get('/:id', async (req, res) => {
   res.render('EditTodo', {
     title: todo.title,
     description: todo.description,
-    id: req.params.id
-  })
-})
+    id: req.params.id,
+  });
+});
 
 router.post('/new', async (req, res) => {
   const todo = req.body;
@@ -50,16 +50,16 @@ router.put('/:id', async (req, res) => {
   try {
     const updateTodo = {
       title: todo.title,
-      description: todo.description
+      description: todo.description,
     };
     const filter = {
-      _id: req.params.id
-    }
+      _id: req.params.id,
+    };
     await Todo.findOneAndUpdate(filter, updateTodo);
     res.redirect('/todos');
   } catch (e) {
-    debug(e)
+    debug(e);
   }
-})
+});
 
 module.exports = router;

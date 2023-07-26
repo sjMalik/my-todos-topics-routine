@@ -1,0 +1,47 @@
+<div class="row mt-5">
+  <div class="col-md-12 m-auto">
+    <div class="card">
+      <div class="card-header">Your Routine</div>
+      <div class="card-body text-center">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Day</th>
+              <th scope="col">Topic</th>
+              <th scope="col">Time From</th>
+              <th scope="col">Time To</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% for(var i=0; i<routines.length; i++) {%>
+              <tr>
+                <th scope="row"><%= i+1 %></th>
+                <% if(i === 0) {%>
+                <td rowspan="<%= routines.length %>"><%= routines[i].day %></td>
+                <% } %>
+                <td><%= routines[i].topic %></td>
+                <td><%= routines[i].time_from %></td>
+                <td><%= routines[i].time_to %></td>
+              </tr>
+            <% } %>
+            <!-- <tr>
+              <th scope="row">1</th>
+              <td>Monday, Wednesday & Friday</td>
+              <td>Study Old Topics</td>
+              <td>12:30 pm</td>
+              <td>2:00 pm</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>Saturday</td>
+              <td>Study Old Topics</td>
+              <td>12:30 pm</td>
+              <td>2:00 pm</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
