@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865cd"
+  },
+  "day": "Monday",
+  "topic": "Study Old Topics",
+  "time_from": "12:30 pm",
+  "time_to": "2:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865ce"
+  },
+  "day": "Wednesday",
+  "topic": "Study Old Topics",
+  "time_from": "12:30 pm",
+  "time_to": "2:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865cf"
+  },
+  "day": "Friday",
+  "topic": "Study Old Topics",
+  "time_from": "12:30 pm",
+  "time_to": "2:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d0"
+  },
+  "day": "Tuesday",
+  "topic": "Study Old Topics",
+  "time_from": "9:00 am",
+  "time_to": "11:00 am"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d1"
+  },
+  "day": "Thursday",
+  "topic": "Study Old Topics",
+  "time_from": "9:00 am",
+  "time_to": "10:00 am"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d2"
+  },
+  "day": "Thursday",
+  "topic": "Break",
+  "time_from": "10:00 am",
+  "time_to": "10:30 am"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d3"
+  },
+  "day": "Thursday",
+  "topic": "Study Old Topics",
+  "time_from": "10:30 am",
+  "time_to": "11:30 am"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d4"
+  },
+  "day": "Saturday",
+  "topic": "Study Old Topics",
+  "time_from": "6:30 am",
+  "time_to": "9:00 am"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d5"
+  },
+  "day": "Sunday",
+  "topic": "Study Old Topics",
+  "time_from": "6:30 am",
+  "time_to": "9:00 am"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d6"
+  },
+  "day": "Tuesday",
+  "topic": "Study, Practise Javascript & Framework",
+  "time_from": "11:00 am",
+  "time_to": "2:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d7"
+  },
+  "day": "Thursday",
+  "topic": "Study, Practise Javascript & Framework",
+  "time_from": "11:30 am",
+  "time_to": "2:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d8"
+  },
+  "day": "Monday",
+  "topic": "Study, Practise Javascript & Framework",
+  "time_from": "3:00 pm",
+  "time_to": "5:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865d9"
+  },
+  "day": "Wednesday",
+  "topic": "Study, Practise Javascript & Framework",
+  "time_from": "3:00 pm",
+  "time_to": "5:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865da"
+  },
+  "day": "Friday",
+  "topic": "Study, Practise Javascript & Framework",
+  "time_from": "3:00 pm",
+  "time_to": "5:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865db"
+  },
+  "day": "Tuesday",
+  "topic": "Linkedin Course: Digital Transformation",
+  "time_from": "4:00 pm",
+  "time_to": "6:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865dc"
+  },
+  "day": "Thursday",
+  "topic": "Linkedin Course: Digital Transformation",
+  "time_from": "4:00 pm",
+  "time_to": "6:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865dd"
+  },
+  "day": "Monday",
+  "topic": "Linkedin Course: Digital Transformation",
+  "time_from": "5:00 pm",
+  "time_to": "7:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865de"
+  },
+  "day": "Wednesday",
+  "topic": "Linkedin Course: Digital Transformation",
+  "time_from": "5:00 pm",
+  "time_to": "7:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865df"
+  },
+  "day": "Friday",
+  "topic": "Linkedin Course: Digital Transformation",
+  "time_from": "5:00 pm",
+  "time_to": "7:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865e0"
+  },
+  "day": "Tuesday",
+  "topic": "Nodejs Projects from Youtube",
+  "time_from": "6:00 pm",
+  "time_to": "8:00 pm"
+},{
+  "_id": {
+    "$oid": "64c224c76ac599997a3865e1"
+  },
+  "day": "Thursday",
+  "topic": "Nodejs Projects from Youtube",
+  "time_from": "6:00 pm",
+  "time_to": "8:00 pm"
+}]

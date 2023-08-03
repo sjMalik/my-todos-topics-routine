@@ -1,0 +1,862 @@
+[{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9352"
+  },
+  "title": "What is Blockchain?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Blockchain.md#what-is-blockchain",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9353"
+  },
+  "title": "Non-fungible tokens (NFTs)",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Blockchain.md#understanding-non-fungible-tokens-nfts",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9354"
+  },
+  "title": "What is ECMAScript?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#what-is-ecmascript",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9355"
+  },
+  "title": "What is Babel?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#what-is-babel",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9357"
+  },
+  "title": "What is JavaScript frameworks?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#what-is-javascript-frameworks",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9358"
+  },
+  "title": "Node.js",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#nodejs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9359"
+  },
+  "title": "Linting and Formatting",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#linting-and-formatting",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a935a"
+  },
+  "title": "JavaScript is an 'object-oriented' language",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#what-does-it-mean-when-we-say-javascript-is-an-object-oriented-language",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a935b"
+  },
+  "title": "Modern Javascript Loading (async and defer)",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#modern-javascript-loading-async-and-defer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a935c"
+  },
+  "title": "Javascript Module",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#javascript-is-a-prototype-based-object-oriented-programming-language",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a935d"
+  },
+  "title": "Virtual Reality, Augmented Reality, Extended Reality",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NanoLearnings.md#what-are-virtual-and-augmented-and-extended-reality-which-is-growing-faster-and-which-is-better-for-your-business",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a935e"
+  },
+  "title": "Internet of Things (IoT)",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NanoLearnings.md#what-is-internet-of-things-iot",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a935f"
+  },
+  "title": "What is the cloud?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NanoLearnings.md#what-is-the-cloud",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9360"
+  },
+  "title": "What is Artificial Intelligence?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NanoLearnings.md#what-is-artificial-intelligence",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9361"
+  },
+  "title": "Data Analytics",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NanoLearnings.md#data-analytics",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9362"
+  },
+  "title": "Web3",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NanoLearnings.md#web3",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9363"
+  },
+  "title": "Javascript Objects",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#javascript-objects",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9364"
+  },
+  "title": "Ddos/Brute Force Attcack and Prevent in Nodejs",
+  "url": "https://github.com/sjMalik/nodejs-tips-and-tricks#ddosbrute-force-attcack-and-prevent-in-nodejs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9365"
+  },
+  "title": "How do you secure the API?",
+  "url": "https://github.com/sjMalik/nodejs-tips-and-tricks#how-do-you-secure-the-api",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9366"
+  },
+  "title": "What is an SSL certificate?",
+  "url": "https://github.com/sjMalik/nodejs-tips-and-tricks#what-is-an-ssl-certificate",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9367"
+  },
+  "title": "File Upload",
+  "url": "https://github.com/sjMalik/nodejs-tips-and-tricks#file-upload",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9368"
+  },
+  "title": "Response Compression",
+  "url": "https://github.com/sjMalik/nodejs-tips-and-tricks#response-compression",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9369"
+  },
+  "title": "HTTP Cookies",
+  "url": "https://github.com/sjMalik/nodejs-tips-and-tricks#http-cookies",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a936a"
+  },
+  "title": "Scaffolding node-express project",
+  "url": "https://github.com/sjMalik/nodejs-tips-and-tricks#scaffolding-node-express-project",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a936b"
+  },
+  "title": "What is Kafka?",
+  "url": "https://github.com/sjMalik/nodejs-kafka#what-is-kafka",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a936c"
+  },
+  "title": "express-generator",
+  "url": "https://github.com/sjMalik/express-handlebar-jquery-swagger#express-generator",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a936d"
+  },
+  "title": "Express method-override middleware",
+  "url": "https://github.com/sjMalik/express-handlebar-jquery-swagger#express-method-override-middleware",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a936e"
+  },
+  "title": "NodeJS Middleware",
+  "url": "https://github.com/sjMalik/practice-javascript#nodejs-middleware",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a936f"
+  },
+  "title": "Call, Apply and Bind",
+  "url": "https://github.com/sjMalik/practice-javascript#call-apply-and-bind",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9370"
+  },
+  "title": "Chai Documentation",
+  "url": "https://github.com/sjMalik/practice-javascript#chai-documentation",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9371"
+  },
+  "title": "What is currying function?",
+  "url": "https://github.com/sjMalik/practice-javascript#what-is-currying-function",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9372"
+  },
+  "title": "ES6 Concepts",
+  "url": "https://github.com/sjMalik/practice-javascript#es6-concepts",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9373"
+  },
+  "title": "Difference between MySQL and PostgreSQL",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/Database.md#difference-between-mysql-and-postgresql",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9375"
+  },
+  "title": "Type Annotations & Type Inference",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/Typescript.md#type-annotations",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9376"
+  },
+  "title": "How to Increase Your Brain Power",
+  "url": "https://www.youtube.com/watch?v=U1lDKJumpLA&ab_channel=PiFingersMotivation",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9377"
+  },
+  "title": "DOM (Document Object Model)",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#dom-document-object-model",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3c8a977f0f2df83a9378"
+  },
+  "title": "Document.querySelector() method",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#document-queryselector-method",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad3ca2977f0f2df83a937c"
+  },
+  "title": "What is Store Procedure?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/Database.md#what-is-store-procedure",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ae9192a534adac768bfdab"
+  },
+  "title": "Modify Element Classes",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#modify-element-classes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ae91a8a534adac768bfdae"
+  },
+  "title": "Attributes",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#attributes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ae91b9a534adac768bfdb1"
+  },
+  "title": "Add DOM Elements",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#add-dom-elements",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ae91d1a534adac768bfdb4"
+  },
+  "title": "Display Flex and Block",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/CSS.md#display-flex-and-block",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ae91e1a534adac768bfdb7"
+  },
+  "title": "Margin and Padding",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/CSS.md#margin-and-padding",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ae91f3a534adac768bfdba"
+  },
+  "title": "align-items",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/CSS.md#align-items",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ae9208a534adac768bfdbd"
+  },
+  "title": "CSS justify-content Property",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/CSS.md#css-justify-content-property",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b619c95f4eb9fe48957ac2"
+  },
+  "title": "Array Methods",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#array-methods",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b619e05f4eb9fe48957ac6"
+  },
+  "title": "Functions and methods",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#functions-and-methods",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b619f35f4eb9fe48957ac9"
+  },
+  "title": "Arrow Functions and Scope of this",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#arrow-functions-and-scope-of-this",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b61a0b5f4eb9fe48957acc"
+  },
+  "title": "What is Callback?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#what-is-callback",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b61a1a5f4eb9fe48957acf"
+  },
+  "title": "DOM Events",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript.md#dom-events",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b6bf7e395c5affc92b8aef"
+  },
+  "title": "Streams in NodeJS",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#streams-in-nodejs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b6bf9b395c5affc92b8af2"
+  },
+  "title": "What is pipe method in NodeJS/ Stream chaining",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-pipe-method-in-nodejs-stream-chaining",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b75b9bb23d8551f6f48170"
+  },
+  "title": "Scaffolding Typescript Project ",
+  "url": "https://github.com/sjMalik/typescript-intro#typescript",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b792b7cad52fb7e44929ff"
+  },
+  "title": "What is IP spoofing?",
+  "url": "https://www.cloudflare.com/learning/ddos/glossary/ip-spoofing/",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d250cad52fb7e4492a02"
+  },
+  "title": "Adding TypeScript to an existing solution",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#adding-typescript-to-an-existing-solution",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d262cad52fb7e4492a05"
+  },
+  "title": "Importing third-party types",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#importing-third-party-types",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d279cad52fb7e4492a08"
+  },
+  "title": "Custom types with interface",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#custom-types-with-interface",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d2adcad52fb7e4492a0b"
+  },
+  "title": "Type Alias",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#type-alias",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d2bccad52fb7e4492a0e"
+  },
+  "title": "Typing functions",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#typing-functions",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d2cbcad52fb7e4492a11"
+  },
+  "title": "Generics",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#generics",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d2eccad52fb7e4492a14"
+  },
+  "title": "History of NodeJs?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NodeJs.md#history-of-nodejs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d301cad52fb7e4492a17"
+  },
+  "title": "Readable file stream",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NodeJs.md#readable-file-stream",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d31acad52fb7e4492a1a"
+  },
+  "title": "HTTP Status Message",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NodeJs.md#http-status-message",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b7d35ecad52fb7e4492a1d"
+  },
+  "title": "HTML data-* Attribute",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/CSS.md#html-data--attribute",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b8999e05500560bbb6661b"
+  },
+  "title": "HOW TO AUTOFIL EVERY COLUMN IN EXCEL?",
+  "url": "https://www.linkedin.com/posts/sachin-kothari-126907198_dsa-data-innovation-activity-7086245644792717312-9FME/?utm_source=share&utm_medium=member_android",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2275e8679a58784dd824"
+  },
+  "title": "Typescript: Combining Multiple Types",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#combining-multiple-types",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2702b7bd28c894b49c10"
+  },
+  "title": "What is Typescript",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#typescript",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc28aa364ae6f993e1d9d4"
+  },
+  "title": "Type vs Interface",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#type-vs-interface",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc299e32d6226f58845be0"
+  },
+  "title": "Classes",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#classes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc29ba32d6226f58845be4"
+  },
+  "title": "Access Modifiers",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#access-modifiers",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2a1332d6226f58845bec"
+  },
+  "title": "Literal Types",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#literal-types",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2a2832d6226f58845bf0"
+  },
+  "title": "Keyof Operator",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#keyof-operator",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2a3a32d6226f58845bf4"
+  },
+  "title": "Typeof operator",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#typeof-operator",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2a5232d6226f58845bf8"
+  },
+  "title": "keyof typeof",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#keyof-typeof",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2a6c32d6226f58845bfc"
+  },
+  "title": "Dynamic but limited type with records",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#dynamic-but-limited-type-with-records",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2a8532d6226f58845c00"
+  },
+  "title": "Extending and Modifying existing types",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#extending-and-modifying-existing-types",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2a9932d6226f58845c04"
+  },
+  "title": "Indexed access types",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#indexed-access-types",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2aad32d6226f58845c08"
+  },
+  "title": "Decorators",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#decorators",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2ac032d6226f58845c0c"
+  },
+  "title": "Method Decorator",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#method-decorator",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2ad332d6226f58845c10"
+  },
+  "title": "Decorator Factories",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#decorator-factories",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2ae432d6226f58845c14"
+  },
+  "title": "Class Decorator",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#class-decorator",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64bc2afa32d6226f58845c18"
+  },
+  "title": "Property Decorator",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Typescript.md#property-decorator",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c0dc7105b8949a6a036123"
+  },
+  "title": "What happened when “npm run xxx”?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NodeJs.md#what-happened-when-npm-run-xxx",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c24a3cd9913c8bc40445c3"
+  },
+  "title": "Unknown Type and Never Type in Typescript",
+  "url": "https://www.youtube.com/watch?v=GCKgL5RR6p8&list=PL_euSNU_eLbfJEwuNa43lM89yfev537Mj&index=14&ab_channel=LeelaWebDev",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c26654d9913c8bc40445c9"
+  },
+  "title": "Which is better : microservices or monolithic architecture",
+  "url": "https://www.youtube.com/watch?v=Q-w-hM1rGdg&ab_channel=ITkFunde",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c32d01d955ca6d57b006fb"
+  },
+  "title": "Introduction to microservices",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/MicroServices.md#introduction-to-microservices",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c32d12d955ca6d57b006ff"
+  },
+  "title": "Monolithic to Microservices",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/MicroServices.md#monolithic-to-microservices",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c32d1fd955ca6d57b00703"
+  },
+  "title": "Service registries and discoveries",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/MicroServices.md#monolithic-to-microservices",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c32d38d955ca6d57b00707"
+  },
+  "title": "Versioning and load balancing",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/MicroServices.md#versioning-and-load-balancing",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c546f50c07c73f31c062f1"
+  },
+  "title": "Can we use Node.js in a big project?",
+  "url": "https://www.quora.com/qemail/tc?al_imp=eyJ0eXBlIjogMzMsICJoYXNoIjogIjIxMTcwNzg5NjAwMjIzMzMyOTN8NXwxfDg2ODIwNDU3In0%3D&al_pri=1&aoid=oBTNkRBJ5PP&aoty=2&aty=4&cp=5&et=2&id=0849d66c363d4ada8fcd049ec7eadddb&q_aid=Mzj3qyZqS7x&uid=8ekMt4ZoA6H",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62d2cc5e6228b66e97981"
+  },
+  "title": "Understanding circuit breakers",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/MicroServices.md#understanding-circuit-breakers",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62d3fc5e6228b66e97985"
+  },
+  "title": "What happens if a service fails?",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/MicroServices.md#what-happens-if-a-service-fails",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62e46c5e6228b66e97991"
+  },
+  "title": "What is the difference between array.forEach() and array.map()?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/Javascript.md#what-is-the-difference-between-arrayforeach-and-arraymap",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62e5ec5e6228b66e97996"
+  },
+  "title": "What is closure?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/Javascript.md#what-is-closure",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62e81c5e6228b66e9799a"
+  },
+  "title": "What is currying function in JavaScript ?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/Javascript.md#what-is-currying-function-in-javascript-",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62ef3c5e6228b66e9799e"
+  },
+  "title": "Error Handling in NodeJS",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#error-handling-in-nodejs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62f0ac5e6228b66e979a2"
+  },
+  "title": "Create a promise response true if resolved and false if rejected. Achieve the same with async and await",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#create-a-promise-response-true-if-resolved-and-false-if-rejected-achieve-the-same-with-async-and-await",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62f20c5e6228b66e979a6"
+  },
+  "title": "Authentication using JWT",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#authentication-using-jwt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62f6ac5e6228b66e979aa"
+  },
+  "title": "Why we use express.js on top of nodejs?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#why-we-use-expressjs-on-top-of-nodejs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62f81c5e6228b66e979ae"
+  },
+  "title": "How to scale NodeJs applications using the cluster module?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#how-to-scale-nodejs-applications-using-the-cluster-module",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c62fa2c5e6228b66e979b3"
+  },
+  "title": "What is child process",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-child-process",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63011c5e6228b66e979bc"
+  },
+  "title": "setTimeout vs setInterval",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#settimeout-vs-setinterval",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63029c5e6228b66e979c0"
+  },
+  "title": "What is Callback",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-callback",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6304ac5e6228b66e979c4"
+  },
+  "title": "How to write unit test with mocha framework and chai assertion library?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#how-to-write-unit-test-with-mocha-framework-and-chai-assertion-library",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63060c5e6228b66e979c8"
+  },
+  "title": "What is javascript Promise?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-javascript-promise",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63095c5e6228b66e979cd"
+  },
+  "title": "What is node js?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-node-js",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c630afc5e6228b66e979d1"
+  },
+  "title": "Create a Node Server",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#create-a-node-server",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c630ecc5e6228b66e979d5"
+  },
+  "title": "What is callback hell?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-callback-hell",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63104c5e6228b66e979d9"
+  },
+  "title": "What is Inversion Of Control?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-inversion-of-control",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6311cc5e6228b66e979dd"
+  },
+  "title": "How to escape from a callback hell?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#how-to-escape-from-a-callback-hell",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63130c5e6228b66e979e1"
+  },
+  "title": "What is Promis.all()?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-promisall",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63146c5e6228b66e979e5"
+  },
+  "title": "How to choose node_modules?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#how-to-choose-node_modules",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6315ac5e6228b66e979e9"
+  },
+  "title": "What is the difference between Authentication and Authorization",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#what-is-the-difference-between-authentication-and-authorization",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63176c5e6228b66e979ed"
+  },
+  "title": "How to build authentication api?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#how-to-build-authentication-api",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6319bc5e6228b66e979f1"
+  },
+  "title": "Explain async await and why we use it?",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/NodeJS.md#explain-async-await-and-why-we-use-it",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c63200c5e6228b66e979f9"
+  },
+  "title": "SQL Joins",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/Database.md#sql-joins",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6321dc5e6228b66e979fd"
+  },
+  "title": "What is SQL - Transactions",
+  "url": "https://github.com/sjMalik/interview-question-answers/blob/main/Database.md#what-is-sql---transactions",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c912a9d8b1d0a582b8ae5e"
+  },
+  "title": "Node Express Course",
+  "url": "https://github.com/john-smilga/node-express-course",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ca34c28188af8d76ccc208"
+  },
+  "title": " node-express-mongodb projects",
+  "url": "https://github.com/topics/node-express-mongodb",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ca34df8188af8d76ccc20c"
+  },
+  "title": "Backend Structure Node+Express+Postgres",
+  "url": "https://github.com/AlaaMezian/NodeJs-backend-structure/tree/master",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ca35008188af8d76ccc212"
+  },
+  "title": "Backend Structure Node+Express+Mongo",
+  "url": "https://github.com/bezkoder/node-express-mongodb/tree/master/app",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ca53bcfc7d79bd03b143f3"
+  },
+  "title": "Testing Rest APIs with jest",
+  "url": "https://www.youtube.com/watch?v=FKnzS_icp20&ab_channel=SamMeech-Ward",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ca5676497d734411afc337"
+  },
+  "title": "How to test Express.js with Jest and Supertest",
+  "url": "https://www.albertgao.xyz/2017/05/24/how-to-test-expressjs-with-jest-and-supertest/",
+  "__v": 0
+}]
