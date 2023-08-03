@@ -1,6 +1,6 @@
 timeout 3
-E:
-cd randomLearning
+C:
+cd Workspace\Github\my-todos-topics-routine
 npm start
 
 cmd /k

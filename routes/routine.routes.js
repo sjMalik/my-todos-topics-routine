@@ -4,7 +4,7 @@ const routineController = require('../controllers/routine.controller');
 
 const router = express.Router();
 
-router.get('/routine', async (req, res) => {
+router.get('/', async (req, res) => {
     routineController.findAll(req, res);
 });
 
