@@ -16,4 +16,8 @@ router.get('/', async (req, res) => {
   topicController.findAll(req, res);
 });
 
+router.get('/random/:topicsToRead', async (req, res) => {
+  topicController.findRandom(req, res);
+});
+
 module.exports = router;

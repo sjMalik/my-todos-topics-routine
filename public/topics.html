@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Random Learning</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css"/>
+</head>
+<body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <div class="container" id="app">
+        <div class="row mt-5">
+            <div class="col-md-12 m-auto">
+                <div class="card card-body text-center">
+                    <h1>Today's Topics</h1>
+                    <form  @submit.prevent="getRandomTopics()">
+                        <div class="form-group">
+                            <input
+                                type="topic"
+                                id="topic"
+                                name="topic"
+                                class="form-control"
+                                placeholder="Enter Number of Topics"
+                                v-model="topicsToRead"
+                            />
+                        </div>
+                        <button type="submit" class="btn btn-success float-left">Submit</button>
+                        <button type="reset" @click="getTopics()" class="btn btn-primary float-left ml-2">Reset</button>
+                    </form>
+                    <ul class="mt-3 list-group">
+                        <li class="list-group-item text-left" v-for="(topic, i) in topics">
+                            <a target="_blank" href="javascript:void(0)">{{topic.title}}</a>
+                        </li>
+                    </ul>
+                    <p class="lead mt-4">Want to add new Topic? <a href="/topics/new">Add</a></p>
+                    <p class="text-right">Go to Todo Dasboard <a href="/todos">Todos</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    const {createApp} = Vue;
+
+    createApp({
+        data() {
+            return {
+                topics: [],
+                topicsToRead: 10
+            }
+        },
+        mounted() {
+            this.getRandomTopics();
+        },
+        methods: {
+            async getTopics() {
+                try {
+                    const response = await fetch('/topics');
+                    this.topics = await response.json();
+                    this.topicsToRead = this.topics.length;
+                }catch(e) {
+                    console.error(e)
+                }
+            },
+            async getRandomTopics(){
+                try {
+                    const response = await fetch(`/topics/random/${this.topicsToRead}`);
+                    this.topics = await response.json();
+                }catch(e) {
+                    console.error(e)
+                }
+            }
+        }
+    }).mount('#app')
+</script>

@@ -1,6 +1,7 @@
 /* eslint-disable indent */
 const debug = require('debug')('randomLearning:topic:controller');
 const Topic = require('../models/topic.model');
+const topicsLib = require('../libs/topics');
 
 exports.create = async (req, res) => {
     try {
@@ -22,6 +23,16 @@ exports.findAll = async (req, res) => {
     try {
         const topics = await Topic.find().collation({ locale: 'en', strength: 2 }).sort({ title: 1 });
         res.send(topics);
+    } catch (e) {
+        debug(e);
+        res.status(500).end();
+    }
+};
+
+exports.findRandom = async (req, res) => {
+    try {
+        const topics = await Topic.find().collation({ locale: 'en', strength: 2 }).sort({ title: 1 });
+        res.send(topicsLib.getMultipleRandom(topics, req.params.topicsToRead));
     } catch (e) {
         debug(e);
         res.status(500).end();
