@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Random Learning</title>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/journal/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <div class="container mt-5" id="app">
+      <h1 class="text-center mb-3">Todo Items</h1>
+      <div class="bs-component">
+        <div class="list-group">
+          <li class="list-group-item" v-for="(todo, i) in todos">
+            {{todo.title}}<br />
+            <small>{{todo.description}}</small>
+            <a
+              class="text-right float-right"
+              href="javascript:void(0)"
+              @click="showModal(todo.title, todo._id)"
+              >Delete</a
+            >
+            <a
+              class="text-right text-success mr-2 float-right"
+              v-bind:href="'/todos/'+todo._id"
+              >Edit</a
+            >
+          </li>
+
+          <p class="mt-4 lead">
+            Want to add new todo? <a href="/todos/new">Add</a>
+          </p>
+          <p class="text-right">
+            Go to Topic Dasboard <a href="/topics.html">Topics</a>
+          </p>
+        </div>
+
+        <div class="modal" id="modal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  You are about to delete <b>{{todoToDelete.title}}</b>. Are you
+                  sure?
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  @click="deleteTodo"
+                >
+                  Yes
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                  @click="hideModal()"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  const { createApp } = Vue;
+
+  createApp({
+    data() {
+      return {
+        todos: [],
+        todoToDelete: {
+          id: null,
+          title: null,
+        },
+      };
+    },
+    mounted() {
+      this.getTodos();
+    },
+    methods: {
+      async getTodos() {
+        try {
+          const response = await fetch("/todos");
+          this.todos = await response.json();
+        } catch (e) {
+          console.error(e);
+        }
+      },
+      editTodo(id) {
+        window.location.replace("/todos/" + id);
+      },
+      showModal(title, id) {
+        this.todoToDelete.title = title;
+        this.todoToDelete.id = id;
+        var x = document.getElementById("modal");
+        x.style.display = "block";
+      },
+      hideModal() {
+        var x = document.getElementById("modal");
+        x.style.display = "none";
+      },
+      async deleteTodo() {
+        try {
+          await fetch("/todos/" + this.todoToDelete.id, {
+            method: "DELETE",
+            headers: {
+              "Content-type": "application/json",
+            },
+          });
+        } catch (e) {
+        } finally {
+          this.hideModal();
+          this.getTodos();
+        }
+      },
+    },
+  }).mount("#app");
+</script>

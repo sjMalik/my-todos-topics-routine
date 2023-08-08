@@ -24,4 +24,8 @@ router.put('/:id', async (req, res) => {
   todoController.update(req, res);
 });
 
+router.delete('/:id', async (req, res) => {
+  todoController.delete(req, res);
+});
+
 module.exports = router;

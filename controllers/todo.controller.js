@@ -7,9 +7,7 @@ const Todo = require('../models/todo.model');
 exports.findAll = async (req, res) => {
     try {
         const todos = await Todo.find();
-        res.render('Todo', {
-            todos,
-        });
+        res.send(todos);
     } catch (e) {
         debug(e);
     }
@@ -24,7 +22,7 @@ exports.create = async (req, res) => {
         });
         const newTodoRes = await newTodo.save();
         debug(newTodoRes);
-        res.redirect('/todos');
+        res.redirect('/todos.html');
     } catch (e) {
         debug(e);
     }
@@ -50,7 +48,19 @@ exports.update = async (req, res) => {
             _id: req.params.id,
         };
         await Todo.findOneAndUpdate(filter, updateTodo);
-        res.redirect('/todos');
+        res.redirect('/todos.html');
+    } catch (e) {
+        debug(e);
+    }
+};
+
+exports.delete = async (req, res) => {
+    try {
+        const filter = {
+            _id: req.params.id,
+        };
+        await Todo.deleteOne(filter);
+        res.send({ message: 'Success' });
     } catch (e) {
         debug(e);
     }

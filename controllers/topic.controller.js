@@ -9,10 +9,10 @@ exports.create = async (req, res) => {
         const topics = await Topic.find();
         const found = topics.find((t) => t.title === topic.title);
         if (typeof found === 'object') {
-            res.redirect('/');
+            res.redirect('/topics.html');
         } else {
             await Topic.insertMany(topic);
-            res.redirect('/');
+            res.redirect('/topics.html');
         }
     } catch (e) {
         debug(e);
