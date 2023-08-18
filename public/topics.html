@@ -43,7 +43,7 @@
                 class="list-group-item text-left"
                 v-for="(topic, i) in topics"
               >
-                <a target="_blank" href="javascript:void(0)">{{topic.title}}</a>
+                <a target="_blank" v-bind:href="topic.url">{{topic.title}}</a>
               </li>
             </ul>
             <p class="lead mt-4">

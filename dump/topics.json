@@ -859,4 +859,60 @@
   "title": "How to test Express.js with Jest and Supertest",
   "url": "https://www.albertgao.xyz/2017/05/24/how-to-test-expressjs-with-jest-and-supertest/",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "64cb6135da3a853888d67e88"
+  },
+  "title": "STOP using console.log in JavaScript. Try this instead",
+  "url": "https://medium.com/@anirudh.munipalli/stop-using-console-log-in-javascript-try-these-instead-72490d895a24",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64dadce2011dd5a8ac88cad4"
+  },
+  "title": "JavaScript Regular Expression Visualizer",
+  "url": "https://jex.im/regulex/#!flags=&re=(((%3F%3D.*%5Cd)((%3F%3D.*%5Ba-z%5D)%7C(%3F%3D.*%5BA-Z%5D)))%7C(%3F%3D.*%5Ba-z%5D)(%3F%3D.*%5BA-Z%5D))%5E%5Ba-zA-Z%5Cd%5D%7B6%2C12%7D%24",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64dadd47011dd5a8ac88cada"
+  },
+  "title": "DevDocs",
+  "url": "https://devdocs.io/",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64dade1f011dd5a8ac88cade"
+  },
+  "title": "Random Image",
+  "url": "https://unsplash.com/",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64dee0c85b94003ed013f96b"
+  },
+  "title": "Javascript Basics",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Javascript%20Basics.pdf",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64dee0dd5b94003ed013f96f"
+  },
+  "title": "Design a tax-efficient salary",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/Design%20a%20tax-efficient%20salary.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64dee1335b94003ed013f977"
+  },
+  "title": "Creating a Robust and Scalable Node.js Project Guide",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NodeJs.md#creating-a-robust-and-scalable-nodejs-project-guide",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64dee1545b94003ed013f97b"
+  },
+  "title": "How to Regularly Update npm Dependencies for Security and Improvements",
+  "url": "https://github.com/sjMalik/my-learnings/blob/main/NodeJs.md#how-to-regularly-update-npm-dependencies-for-security-and-improvements",
+  "__v": 0
 }]
