@@ -4,8 +4,8 @@
   "description": "Nodejs server auto start on windows startup",
   "main": "index.js",
   "scripts": {
-    "dev": "SET DEBUG=randomLearning:* & nodemon app.js",
-    "start": "SET DEBUG=randomLearning:* & node app.js",
+    "dev": "SET DEBUG=randomLearning:* & nodemon index.js",
+    "start": "SET DEBUG=randomLearning:* & node index.js",
     "lint-fix": "eslint --fix . --ext .js",
     "test": "jest"
   },
