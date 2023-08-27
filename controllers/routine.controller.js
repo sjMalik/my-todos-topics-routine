@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 // eslint-disable-next-line import/extensions, import/no-unresolved
-const Routine = require('../models');
+const Routine = require('../models/routine.model');
 
 exports.findAll = async (req, res) => {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
