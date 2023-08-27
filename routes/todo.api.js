@@ -1,5 +1,5 @@
+/* eslint-disable consistent-return */
 const TodoService = require('../services/todo.service');
-const debug = require('debug')('todos:api');
 
 module.exports = (app) => {
   const service = new TodoService();

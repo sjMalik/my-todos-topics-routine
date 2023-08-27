@@ -1,8 +1,9 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 const express = require('express');
+const debug = require('debug')('todos:server');
 const { PORT } = require('./config');
 const expressApp = require('./express-app');
 const { databaseConnection } = require('./database');
-const debug = require('debug')('todos:server');
 
 const StartServer = async () => {
   const app = express();
