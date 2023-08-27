@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/journal/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <div class="container" id="app">
+      <div class="row mt-5">
+        <div class="col-md-12 m-auto">
+          <div class="card card-body text-center">
+            <h1>Add a new Topic</h1>
+            <form @submit.prevent="createTopic()">
+              <div class="form-group">
+                <input
+                  type="title"
+                  id="title"
+                  name="title"
+                  class="form-control"
+                  placeholder="Enter Title of Topic"
+                  v-model="topic.title"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="url"
+                  id="url"
+                  name="url"
+                  class="form-control"
+                  placeholder="Enter URL of Topic"
+                  v-model="topic.url"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary float-left">
+                Submit
+              </button>
+            </form>
+            <p class="lead mt-4">
+              Go to Dashboard? <a href="/topics.html">Dashboard</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  const { createApp } = Vue;
+
+  createApp({
+    data() {
+      return {
+        topic: {
+          title: null,
+          url: null,
+        },
+      };
+    },
+    methods: {
+      async createTopic() {
+        try {
+          await axios.post("/topics", this.topic);
+          window.location.replace("/topics.html");
+        } catch (e) {}
+      },
+    },
+  }).mount("#app");
+</script>
