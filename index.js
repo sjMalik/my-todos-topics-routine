@@ -1,9 +1,23 @@
-const app = require('./app');
-const debug = require('debug')('randomLearning:server');
+const express = require('express');
+const {PORT} = require('./config');
+const expressApp = require('./express-app');
+const {databaseConnection} = require('./database')
+const debug = require('debug')('todos:server');
 
-app.listen(7777, () => {
-  debug('running @ http://localhost:7777');
-  // cp.exec('start chrome http://localhost:7777/topics.html https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox');
-  // cp.exec('start chrome https://www.linkedin.com/learning/ http://localhost:7777/routines');
-  // cp.exec('start chrome https://chat.openai.com/');
-});
+const StartServer = async () => {
+    const app = express();
+
+    await expressApp(app);
+
+    await databaseConnection();
+
+    app.listen(PORT, () => {
+        debug(`Listening on port ${PORT}`)
+    }).on('error', (err) => {
+        debug(err);
+        process.exit();
+    })
+}
+
+StartServer();
+
