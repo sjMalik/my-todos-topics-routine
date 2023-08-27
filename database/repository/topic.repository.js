@@ -1,8 +1,8 @@
 /* eslint-disable indent */
-const debug = require("debug")("todos:topicRepository");
-const { TopicModel } = require("../models");
-const { APIError, STATUS_CODE } = require("../../utils/app-error");
-const { getMultipleRandom } = require("../../utils/topic-lib");
+const debug = require('debug')('todos:topicRepository');
+const { TopicModel } = require('../models');
+const { APIError, STATUS_CODE } = require('../../utils/app-error');
+const { getMultipleRandom } = require('../../utils/topic-lib');
 
 class TopicRepository {
   async findTopic({ title }) {
@@ -11,9 +11,9 @@ class TopicRepository {
       return existingTopic;
     } catch (e) {
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Error creating topic"
+        'Error creating topic',
       );
     }
   }
@@ -24,9 +24,9 @@ class TopicRepository {
       return true;
     } catch (e) {
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Error creating topic"
+        'Error creating topic',
       );
     }
   }
@@ -34,15 +34,15 @@ class TopicRepository {
   async findAll() {
     try {
       const topics = await TopicModel.find()
-        .collation({ locale: "en", strength: 2 })
+        .collation({ locale: 'en', strength: 2 })
         .sort({ title: 1 });
       debug(topics);
       return topics;
     } catch (e) {
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Error creating topic"
+        'Error creating topic',
       );
     }
   }
@@ -50,15 +50,15 @@ class TopicRepository {
   async findRandom(count) {
     try {
       const topics = await TopicModel.find()
-        .collation({ locale: "en", strength: 2 })
+        .collation({ locale: 'en', strength: 2 })
         .sort({ title: 1 });
       return getMultipleRandom(topics, count);
     } catch (e) {
       debug(e);
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Error creating topic"
+        'Error creating topic',
       );
     }
   }

@@ -1,22 +1,22 @@
-const { APIError } = require("../../utils/app-error");
-const { RoutineModel } = require("../models");
+const { APIError } = require('../../utils/app-error');
+const { RoutineModel } = require('../models');
 
 class RoutineRepository {
   async findAll() {
     try {
       const days = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
+        'Sunday',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
       ];
       const now = new Date();
       const today = days[now.getDay()];
       const routines = await RoutineModel.find({ day: today })
-        .collation({ locale: "en", strength: 2 })
+        .collation({ locale: 'en', strength: 2 })
         .sort({ day: 1 });
       return routines;
     } catch (e) {

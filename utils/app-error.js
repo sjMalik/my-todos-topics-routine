@@ -1,3 +1,5 @@
+/* eslint-disable default-param-last */
+/* eslint-disable max-classes-per-file */
 const STATUS_CODE = {
   OK: 200,
   BAD_REQUEST: 400,
@@ -13,7 +15,7 @@ class AppError extends Error {
     description,
     isOperational,
     errorStack,
-    loginErrorResponse
+    loginErrorResponse,
   ) {
     super(description);
     Object.setPrototypeOf(this, new.target.prototype);
@@ -31,8 +33,8 @@ class APIError extends AppError {
   constructor(
     name,
     statusCode = STATUS_CODE.INTERNAL_ERROR,
-    description = "Internal Server Error",
-    isOperational = true
+    description = 'Internal Server Error',
+    isOperational = true,
   ) {
     super(name, statusCode, description, isOperational);
   }
@@ -40,27 +42,27 @@ class APIError extends AppError {
 
 // 400
 class BadRequestError extends AppError {
-  constructor(description = "Bad Request", loginErrorResponse) {
+  constructor(description = 'Bad Request', loginErrorResponse) {
     super(
-      "NOT FOUND",
+      'NOT FOUND',
       STATUS_CODE.BAD_REQUEST,
       description,
       true,
       false,
-      loginErrorResponse
+      loginErrorResponse,
     );
   }
 }
 
 // 400
 class ValidationError extends Error {
-  constructor(description = "Validation Error", errorStack) {
+  constructor(description = 'Validation Error', errorStack) {
     super(
-      "BAD REQUEST",
+      'BAD REQUEST',
       STATUS_CODE.BAD_REQUEST,
       description,
       true,
-      errorStack
+      errorStack,
     );
   }
 }

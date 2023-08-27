@@ -1,7 +1,6 @@
-const { TodoRepository } = require("../database");
-const { FormatData } = require("../utils");
-const { APIError } = require("../utils/app-error");
-const debug = require("debug")("todos:service");
+const { TodoRepository } = require('../database');
+const { FormatData } = require('../utils');
+const { APIError } = require('../utils/app-error');
 
 class TodoService {
   constructor() {
@@ -13,7 +12,7 @@ class TodoService {
       const todos = await this.repository.findAll();
       return FormatData(todos);
     } catch (e) {
-      throw new APIError("Data Not Found");
+      throw new APIError('Data Not Found');
     }
   }
 
@@ -22,7 +21,7 @@ class TodoService {
       const { title, description } = todo;
       await this.repository.create({ title, description });
     } catch (e) {
-      throw new APIError("Data not found");
+      throw new APIError('Data not found');
     }
   }
 
@@ -31,7 +30,7 @@ class TodoService {
       const todo = await this.repository.findOne(id);
       return FormatData(todo);
     } catch (e) {
-      throw new APIError("Data not found");
+      throw new APIError('Data not found');
     }
   }
 
@@ -40,7 +39,7 @@ class TodoService {
       const { id, title, description } = todo;
       await this.repository.update({ id, title, description });
     } catch (e) {
-      throw new APIError("Data not found");
+      throw new APIError('Data not found');
     }
   }
 
@@ -48,7 +47,7 @@ class TodoService {
     try {
       await this.repository.delete(id);
     } catch (e) {
-      throw new APIError("Data not found");
+      throw new APIError('Data not found');
     }
   }
 }

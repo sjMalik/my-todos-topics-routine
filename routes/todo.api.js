@@ -1,10 +1,10 @@
-const TodoService = require("../services/todo.service");
-const debug = require("debug")("todos:api");
+const TodoService = require('../services/todo.service');
+const debug = require('debug')('todos:api');
 
 module.exports = (app) => {
   const service = new TodoService();
 
-  app.get("/todos", async (req, res, next) => {
+  app.get('/todos', async (req, res, next) => {
     try {
       const { data } = await service.findAll();
       return res.json(data);
@@ -13,7 +13,7 @@ module.exports = (app) => {
     }
   });
 
-  app.post("/todos", async (req, res, next) => {
+  app.post('/todos', async (req, res, next) => {
     try {
       const { title, description } = req.body;
       await service.create({ title, description });
@@ -23,8 +23,8 @@ module.exports = (app) => {
     }
   });
 
-  app.put("/todos/:id", async (req, res, next) => {
-    const id = req.params.id;
+  app.put('/todos/:id', async (req, res, next) => {
+    const { id } = req.params;
     const { title, description } = req.body;
     try {
       await service.update({ id, title, description });
@@ -34,7 +34,7 @@ module.exports = (app) => {
     }
   });
 
-  app.delete("/todos/:id", async (req, res, next) => {
+  app.delete('/todos/:id', async (req, res, next) => {
     try {
       await service.delete(req.params.id);
       return res.status(200).end();

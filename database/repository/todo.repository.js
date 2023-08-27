@@ -1,6 +1,6 @@
-const debug = require("debug")("todos:repository");
-const { TodoModel } = require("../models");
-const { APIError, STATUS_CODE } = require("../../utils/app-error");
+const debug = require('debug')('todos:repository');
+const { TodoModel } = require('../models');
+const { APIError, STATUS_CODE } = require('../../utils/app-error');
 
 class TodoRepository {
   async findAll() {
@@ -9,9 +9,9 @@ class TodoRepository {
       return todos;
     } catch (e) {
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Unable to get Products"
+        'Unable to get Products',
       );
     }
   }
@@ -25,9 +25,9 @@ class TodoRepository {
       await newTodo.save();
     } catch (e) {
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Unable to create todo"
+        'Unable to create todo',
       );
     }
   }
@@ -38,9 +38,9 @@ class TodoRepository {
       return todo;
     } catch (e) {
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Unable to find the todo"
+        'Unable to find the todo',
       );
     }
   }
@@ -57,9 +57,9 @@ class TodoRepository {
       await TodoModel.findOneAndUpdate(filter, updateTodo);
     } catch (e) {
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Unable to edit"
+        'Unable to edit',
       );
     }
   }
@@ -72,9 +72,9 @@ class TodoRepository {
       await TodoModel.deleteOne(filter);
     } catch (e) {
       throw new APIError(
-        "API Error",
+        'API Error',
         STATUS_CODE.INTERNAL_ERROR,
-        "Unable to delete"
+        'Unable to delete',
       );
     }
   }

@@ -1,6 +1,6 @@
-const { RoutineRepository } = require("../database");
-const { FormatData } = require("../utils");
-const { APIError } = require("../utils/app-error");
+const { RoutineRepository } = require('../database');
+const { FormatData } = require('../utils');
+const { APIError } = require('../utils/app-error');
 
 class RoutineService {
   constructor() {
@@ -12,7 +12,7 @@ class RoutineService {
       const routines = await this.repository.findAll();
       return FormatData(routines);
     } catch (e) {
-      throw new APIError("Data Not Found");
+      throw new APIError('Data Not Found');
     }
   }
 }

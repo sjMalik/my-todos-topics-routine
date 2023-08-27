@@ -1,7 +1,7 @@
-const { TopicRepository } = require("../database");
-const { APIError } = require("../utils/app-error");
-const { FormatData, getMultipleRandom } = require("../utils");
-const debug = require("debug")("todos:todoService");
+const debug = require('debug')('todos:todoService');
+const { TopicRepository } = require('../database');
+const { APIError } = require('../utils/app-error');
+const { FormatData, getMultipleRandom } = require('../utils');
 
 class TopicService {
   constructor() {
@@ -16,7 +16,7 @@ class TopicService {
         await this.repository.create({ title, url });
       }
     } catch (e) {
-      throw new APIError("Data not found");
+      throw new APIError('Data not found');
     }
   }
 
@@ -26,7 +26,7 @@ class TopicService {
       return FormatData(topics);
     } catch (e) {
       debug(e);
-      throw new APIError("Data not found");
+      throw new APIError('Data not found');
     }
   }
 
@@ -35,7 +35,7 @@ class TopicService {
       const topics = await this.repository.findRandom(count);
       return getMultipleRandom(topics, count);
     } catch (e) {
-      throw new APIError("Data not found");
+      throw new APIError('Data not found');
     }
   }
 }
